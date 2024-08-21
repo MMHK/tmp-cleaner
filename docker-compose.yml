@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    image: mmhk/tmp-cleaner
+    volumes:
+      - ./your_tmp_dir:/tmp
+    environment:
+      - TMP_DIR=/tmp
+      - DAYS=7
+      - INTERVAL=86400
+    network_mode: host
