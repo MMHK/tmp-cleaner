@@ -1,7 +1,7 @@
 # tmp-cleaner
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/mmhk/temp-cleaner)](https://goreportcard.com/report/github.com/mmhk/temp-cleaner)
-[![Docker Pulls](https://img.shields.io/docker/pulls/mmhk/temp-cleaner.svg)](https://hub.docker.com/r/mmhk/temp-cleaner)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mmhk/tmp-cleaner)](https://goreportcard.com/report/github.com/mmhk/tmp-cleaner)
+[![Docker Pulls](https://img.shields.io/docker/pulls/mmhk/tmp-cleaner.svg)](https://hub.docker.com/r/mmhk/tmp-cleaner)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
@@ -76,7 +76,7 @@ docker run --rm tmp_cleaner -h
 version: '3'
 services:
   tmp_cleaner:
-    image: mmhk/tmp_cleaner:latest
+    image: mmhk/tmp-cleaner:latest
     container_name: tmp_cleaner
     volumes:
       - /path/to/local/tmp:/mnt/tmp

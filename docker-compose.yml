@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: mmhk/tmp-cleaner
+    image: mmhk/tmp-cleaner:latest
     volumes:
       - ./your_tmp_dir:/tmp
     environment:
